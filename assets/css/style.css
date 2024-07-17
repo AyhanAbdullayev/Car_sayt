@@ -331,6 +331,9 @@
 .twenty-section{
     width: 100%;
     height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #333333;
 }
 .text12,.text13{
@@ -339,6 +342,7 @@
 .text14{
     width: 100%;
     height: 95px;
-    text-align: center;
+    font-size: 13px;
     color: white;
+    text-align: center;
 }
