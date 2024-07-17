@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.menu{
+    width: 30px;
+    height: 30px;
+}
+.logo{
+    width: 100px;
+    height: 70px;
+}
+.inner{
+    width: 80%;
+    margin: auto;
+}
+.title{
+    font-family: "Oswald", sans-serif;
+    font-size: 67px;
+}
+
+
+.first-section{
+    border-bottom: 0.5px solid #000;
+}
+
+.first-section-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.car{
+    width: 73%;
+    height: 23%;
+}
+.second-section{
+    padding: 50px 0px;
+}
+.second-section-inner{
+    padding: 50px 0px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 600px;
+}
+.second-section-content,.car{
+    width: 140%;
+}
+.title{
+    font-family: "Oswald", sans-serif;
+    font-size: 62px;
+}
+.p{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.second-section-content{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.third-section-content,.img2,.car4,.car5,.car6{
+    width: 50%;
+}
+.car6{
+    margin-top: -5%;
+}
+.third-section,.fourth-section,.five-section,.six-section,.seven-section,.eight-section,.nine-section{
+    padding: 50px 0;
+    display: flex;
+    align-items: start;
+    gap: 50px;
+}
+.third-section-content,.fourth-section-content,.five-section-content,.six-section-content,.seven-section-content,.eight-section-content,.nine-section-content{
+    position: relative;
+    width: 30%;
+    z-index: 1;
+}
+.img,.logo2{
+    width: 140px;
+    position: absolute;
+    top: 0;
+    left: -11%;
+    height: 165px;
+    z-index: 0;
+    top: -22%;
+}
+.third-section-elements,.five-section-elements,.six-section-elements,.seven-section-elements,.eight-section-elements,.nine-section-elements{
+    z-index: 1;
+    position: relative;
+}
+.third-section-elements p,.five-section-elements p,.eight-section-elements p{
+    padding: 20px 0 20px 60px;
+    font-weight: 400;
+    margin-right: 17%;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+.five-section-elements p{
+    padding: 20px 0 20px 30px;   
+}
+.six-section-elements{
+    margin-left: 19%;
+}
+.fourth-section-elements p,.six-section-elements p,.seven-section p{
+    font-weight: 400;
+    margin-right: 17%;
+    font-style: italic;
+    margin-bottom: 5%; 
+}
+.seven-section p{
+    font-style: normal;
+    margin-right: 53%;
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+.title2{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+}
+.Bt,.Bt2,.Bt3,.Bt6{
+    background-image: linear-gradient(to right, #84abec, #cf84fb);
+    padding: 8px 30px;
+    border-radius: 20px;
+    color: #FFF;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 14%;
+}
+.Bt2,.Bt4,.Bt5{
+    background-image: none;
+    background-color: #000;
+    padding: 8px 30px;
+    border-radius: 20px;
+    color: #FFF;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 0%;
+    font-size: 15px;
+    display: block;
+    margin-top: 6%;
+    width: max-content;
+}
+
+.Bt3{
+    background-image: linear-gradient(to right, #35ced0, #84abec);
+    margin-left: 7%;
+}
+
+.img3,.logo3{
+    width: 4%;
+    z-index: 0;
+    position: absolute;
+    opacity: 0.3;
+    margin-top: 16.9%;
+    margin-left: 19%;
+}
+.logo3{
+    margin-top: 20%;
+    margin-right: 11%;
+}
+.logo2{
+    margin-top: 9%;
+}
+.fourth-section,.five-section,.seven-section{
+    justify-content: end;
+}
+.fourth-section-elements,.five-section-elements{
+    margin-right: 4%;
+}
+.text,.text2{
+    margin-top: 5%;
+}
+.six-section-elements{
+    margin-right: 23%;
+}
+.seven-section{
+    justify-content: end;
+    background-image: linear-gradient(-90deg, #cf84fb, #35ced0);
+    width: 100%;
+}
+.text3{
+    margin-left: 19.7%;
+    font-size: 20px;
+}
+.seven-section-elements{
+    position: relative;
+
+}
+.text6,.seven-section-elements{
+    margin-right: -100%;
+    text-align: center;
+    margin-top: 33%;
+}
+.text6{
+    margin-top: 16%;
+    margin-left: -50%;
+    font-weight: 700;
+}
+.box{
+    background-color: white;
+    position: absolute;
+    right: 0;
+    font-size: 28px;
+    padding: 10px 450px 35px 7px;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
+.Bt5{
+    margin-left: 30%;
+}
+.link{
+    color:#35ced0;
+    text-decoration: none;
+}
+.eight-section-elements{
+    margin-top: 24%;
+}
+.text-link{
+    margin-left: -5%;
+    margin-right: 8%;
+}
+.img8{
+    width: 30%;
+    position: absolute;
+    z-index: 0;
+    margin-top: 12%;
+    margin-left: -10%;
+}
+.logo4{
+    width: 4%;
+    opacity: 0.3;
+    position: absolute;
+    z-index: 0;
+    margin-top: 30%;
+    margin-left: 10%;
+}
+.nine-section-content{
+    z-index: 1;
+    position: relative;
+}
+.img9{
+    width: 24%;
+    position: absolute;
+    z-index: 0;
+    margin-top: -13%;
+    margin-left: 50%;
+}
+.nine-section-elements{
+    margin-left: 63%;
+    margin-right: -123%;
+}
+.text7{
+    margin-right: 3%;
+}
+
+.photo{
+    height: 0px;
+}
+
+.photos{
+    width: 100px;
+    height: 366px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.logo5{
+    width: 95%;
+    height: 80px;
+}
+.eleven-section{
+    background-color: #2b2933;
+}
+.link3{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.logo5{
+    margin-top: 63%;
+}
+.text-over{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: 5%;
+}
+.text8{
+    margin-left: 6%;
+}
+.title6{
+    font-family: "Oswald", sans-serif;
+}
+.samp{
+    font-size: 14px;
+    margin-top: 7%;
+}
+.text9{
+    margin-left: -18%;
+}
+.text10{
+    position: relative;
+    right: 25%;
+}
+.facelogo,.twitlogo,.Instalogo,.linklogo{
+    width: 14%;
+}
+.eleven-element-section{
+    margin: auto;
+    width: 14%;
+    margin-top: 4%;
+    margin-left: 46%;
+}
+.twenty-section{
+    width: 100%;
+    height: 95px;
+    background-color: #333333;
+}
+.text12,.text13{
+    color: #A6EBEC;
+}
+.text14{
+    width: 100%;
+    height: 95px;
+    text-align: center;
+    color: white;
+}
