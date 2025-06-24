@@ -1,6 +1,6 @@
 let menu = document.getElementById("mt");
 let button = document.getElementById("button");
-let close_menu= document.getElementById("close")
+let close_menu = document.getElementById("close")
 let up_arrow = document.getElementById("up-arrow")
 
 

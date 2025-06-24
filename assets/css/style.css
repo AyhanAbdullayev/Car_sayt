@@ -26,6 +26,11 @@ body{
     font-size: 67px;
 }
 
+.navbar{
+    width: 100%;
+    height: 100%;
+}
+
 
 .first-section{
     border-bottom: 0.5px solid #000;
@@ -439,11 +444,18 @@ menu img{
 }
 @media(max-width:480px){
     .logo{
-        width: 30%;
-        height: 30%;
+        width: 17%;
+        height: 17%;
+    }
+    .menu{
+        width: 8%;
+        height: 8%;
     }
     .first-section-inner{
-        justify-content:end;
+        justify-content:space-between;
+    }
+    .img2{
+        width: 200%;
     }
     .second-section-inner,.second-section,.second-section-content{
         width: 150%;
@@ -451,13 +463,6 @@ menu img{
     .first-section{
         width: 400%;
         margin-top: 38%;
-    }
-    .menu{
-        width: 8%;
-        height: 8%;
-        position: relative;
-        left: 8%;
-        top: -64px;
     }
     .title{
         font-size: 89px;
@@ -483,4 +488,17 @@ menu img{
         margin-right: 19%;
         font-size: 50px;
     }
+
+    
+    .img2{
+        width: 500%;
+    }
+
+    .third-section,.fourth-section{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+
 }
